@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SampleController">
+   <center>
+      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <AnchorPane>
+                     <children>
+                        <ImageView fx:id="Donald" fitHeight="150.0" fitWidth="200.0" onMouseClicked="#Clicked" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../125422145_377988549979158_6010691334978692640_n.gif" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="10.0" layoutY="10.0">
+                     <children>
+                        <ImageView fx:id="Joe" fitHeight="150.0" fitWidth="200.0" onMouseClicked="#ClickedJoe" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../125179204_1259892304397393_1379644411009020563_n.jpg" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="10.0" layoutY="10.0">
+                     <children>
+                        <ImageView fx:id="Jessica" fitHeight="150.0" fitWidth="200.0" onMouseClicked="#ClickedJessica" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../125182157_858899571517239_6341376414637521097_n.jpg" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="10.0" layoutY="10.0">
+                     <children>
+                        <ImageView fx:id="Dana" fitHeight="150.0" fitWidth="200.0" onMouseClicked="#ClickedDana" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../125185914_375850317090279_6708478667429353459_n.jpg" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="210.0" layoutY="10.0">
+                     <children>
+                        <ImageView fx:id="Clement" fitHeight="150.0" fitWidth="200.0" onMouseClicked="#ClickedClement" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../125370940_715439432682674_783187449038903009_n.jpg" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </HBox>
+            <HBox layoutX="10.0" layoutY="10.0" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <AnchorPane>
+                     <children>
+                        <ImageView fx:id="Chloe" fitHeight="150.0" fitWidth="200.0" onMouseClicked="#ClickedChloe" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../125258467_3491052890986064_6463032001199612596_n.jpg" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="10.0" layoutY="10.0">
+                     <children>
+                        <ImageView fx:id="Lucy" fitHeight="150.0" fitWidth="200.0" onMouseClicked="#ClickedLucy" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../125254430_286695375950456_8723000141297811480_n.jpg" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="10.0" layoutY="10.0">
+                     <children>
+                        <ImageView fx:id="George" fitHeight="150.0" fitWidth="200.0" onMouseClicked="#ClickedGeorge" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../125491001_1281403715527979_2797250268070151987_n.jpg" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="10.0" layoutY="10.0">
+                     <children>
+                        <ImageView fx:id="Isabelle" fitHeight="150.0" fitWidth="200.0" onMouseClicked="#ClickedIsabelle" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../125325959_668882357152508_4938088655652014703_n.jpg" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="210.0" layoutY="10.0">
+                     <children>
+                        <ImageView fx:id="Tracey" fitHeight="150.0" fitWidth="200.0" onMouseClicked="#ClickedTracey" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../125270483_823411035166138_9015508935700778699_n.jpg" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </HBox>
+            <HBox layoutX="10.0" layoutY="10.0" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <AnchorPane>
+                     <children>
+                        <ImageView fx:id="Agata" fitHeight="150.0" fitWidth="200.0" onMouseClicked="#ClickedAgata" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../125292631_423438248670847_6331333686608945236_n.jpg" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="10.0" layoutY="10.0">
+                     <children>
+                        <ImageView fx:id="Jan" fitHeight="150.0" fitWidth="200.0" onMouseClicked="#ClickedJan" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../125088874_3473701396012617_933335330248528621_n.jpg" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="10.0" layoutY="10.0">
+                     <children>
+                        <ImageView fx:id="Przemysław" fitHeight="150.0" fitWidth="200.0" onMouseClicked="#ClickedPrzemysław" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../125318349_697588974221597_7122200318649966679_n.jpg" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="10.0" layoutY="10.0">
+                     <children>
+                        <ImageView fx:id="Joanna" fitHeight="150.0" fitWidth="200.0" onMouseClicked="#ClickedJoanna" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../125262836_454691788850330_2163234528150125294_n.jpg" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="210.0" layoutY="10.0">
+                     <children>
+                        <ImageView fx:id="Hubert" fitHeight="150.0" fitWidth="200.0" onMouseClicked="#ClickedHubert" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../125279921_690264638271675_1700546708021007604_n.jpg" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </center>
+   <bottom>
+      <HBox BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="LosujPostac" mnemonicParsing="false" onAction="#Losuj" text="Losuj Postać" />
+            <TextField fx:id="textArea" />
+            <Button fx:id="back" mnemonicParsing="false" onAction="#Clear" text="Back" />
+            <Button fx:id="wyg" mnemonicParsing="false" onAction="#Win" text="Wygrana" textFill="#542394" />
+         </children>
+      </HBox>
+   </bottom>
+</BorderPane>
